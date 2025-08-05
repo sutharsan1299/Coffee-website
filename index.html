@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#products">products</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </div>
+    <div class="icons">
+      <div class="fas fa-shopping-cart" id="cart-btn">
+        <span id="cart-count">0</span>
+      </div>
+    </div>
+  </header>
+
+<section class="home" id="home">
+  <div class="content">
+    <h3>Start your day with a black Coffee</h3>
+    <p>Brewed with passion, served with purpose. Every cup tells a story worth savoring.</p>
+    <p><span>"Now you can feel the energy."</span></p>
+
+    <a href="#" class="btn add-cart">BUY NOW</a>
+  </div>
+</section>
+
+  <section class="about" id="about">
+    <h1 class="heading"> <span>about</span> us </h1>
+    <div class="row">
+      <img src="images/about1.png" alt="">
+      <div class="content">
+        <h3>what makes our coffee special?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate aspernatur iusto praesentium tempore exercitationem inventore neque commodi numquam. Minus rerum incidunt quos placeat, aut ipsa illo omnis praesentium saepe harum totam quas tempore eligendi, quibusdam dolore quidem dignissimos optio at reprehenderit fuga quisquam, ea illum non et. Reprehenderit et inventore recusandae rerum porro illum? Rem ut modi nam soluta eum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eos sed autem voluptas maiores quos magnam ipsa aut quaerat, et nam illo, aspernatur modi laudantium. Enim magni sit dolore recusandae architecto voluptas. Ut totam soluta praesentium consequuntur sed quasi magni nam earum ex, aliquid assumenda vitae repudiandae fugiat dolorum, recusandae odit omnis minima ipsam velit. Reprehenderit deserunt natus nulla voluptate sint adipisci magni voluptatibus commodi. Quae aut facere doloremque necessitatibus modi temporibus, dolorem voluptatum laborum officia explicabo optio voluptates debitis!</p>
+        <a href="#" class="btn add-cart">learn more</a>
+      </div>
+    </div>
+  </section>
+
+<!-- Menu Section-->
+
+  <section class="menu" id="menu">
+    <h1 class="heading"> our <span>menu</span> </h1>
+    <div class="box-container">
+      <div class="box"><img src="images/menu1.png" alt="">
+        <h3>tasty and healthy</h3>
+        <div class="price">Rs.149.99 <span>Rs.200.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box"><img src="images/menu2.png" alt="">
+        <h3> Coffee </h3>
+        <div class="price">Rs.149.99 <span>Rs.200.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box"><img src="images/menu3.png" alt="">
+        <h3> Black Coffee</h3>
+        <div class="price">Rs.149.99 <span>Rs.200.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box"><img src="images/menu4.png" alt="">
+        <h3>Chocolate Cold Coffee</h3>
+        <div class="price">Rs.219.99 <span>Rs.250.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box"><img src="images/menu5.png" alt="">
+        <h3> Coffee Ice-Cream</h3>
+        <div class="price">Rs.219.99 <span>Rs.250.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+      <div class="box"><img src="images/menu6.png" alt="">
+        <h3> Special Cream Coffee</h3>
+        <div class="price">Rs.249.99 <span>Rs.300.00</span></div><a href="#" class="btn add-cart">add to cart</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Section-->
+
+  <section class="products" id="products">
+    <h1 class="heading"> our <span>products</span> </h1>
+    <div class="box-container">
+      <div class="box">
+        <div class="icons"><div class="fas fa-shopping-cart add-cart"></div></div>
+        <div class="image"><img src="images/Product1.png" alt=""></div>
+        <div class="content">
+          <h3>Ginger coffee</h3>
+          <div class="price">Rs.200.00 <span>Rs.230.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icons"><div class="fas fa-shopping-cart add-cart"></div></div>
+        <div class="image"><img src="images/product2.png" alt=""></div>
+        <div class="content">
+          <h3>fresh coffee</h3>
+          <div class="price">Rs.1,000 <span>Rs.1,250.00</span></div>
+        </div>
+      </div>
+
+      <div class="box">
+        <div class="icons"><div class="fas fa-shopping-cart add-cart"></div></div>
+        <div class="image"><img src="images/product3.png" alt=""></div>
+        <div class="content">
+          <h3>NesCafe Coffee </h3>
+          <div class="price">Rs.2700.00 <span>Rs.2,850.00</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Add Cart Box-->
+
+<div class="cart-box" id="cart-box">
+  <h2> Your Cart </h2>
+  <div class="cart-content" id="cart-content"></div>
+  <div class="cart-total">
+    <h3> Total :Rs.<span id="cart-total-price">0</span></h3>
+    <button class="checkout-btn"> CheckOut</button>
+  </div>
+</div>
+
+  <!-- Contact Section-->
+
+  <section class="contact" id="contact">
+    <h1 class="heading"> <span>contact</span> us </h1>
+    <div class="row">
+      <div class="image"><img src="images/Contact.jpg" alt=""></div>
+      <form action="">
+        <h3>get in touch</h3>
+        <div class="inputBox"><span class="fas fa-user"></span><input type="text" placeholder="name"></div>
+        <div class="inputBox"><span class="fas fa-envelope"></span><input type="email" placeholder="email"></div>
+        <div class="inputBox"><span class="fas fa-phone"></span><input type="number" placeholder="number"></div>
+        <input type="submit" value="contact now" class="btn">
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer Section-->
+
+  <footer class="footer">
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+    <div class="links">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#menu">menu</a>
+      <a href="#products">products</a>
+      <a href="#contact">contact</a>
+    </div>
+    <div class="credit">created by <span><b>Mr.Siva</b></span> | all rights reserved</div>
+  </footer>
+
+  <script src="style.js"></script>
+</body>
+
+</html>
