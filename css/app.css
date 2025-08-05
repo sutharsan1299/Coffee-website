@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5px 5%;
-    border-bottom: 5px solid rgba(255, 255, 255, .3);
+    border-bottom: 3px solid rgba(255, 255, 255, .3);
     position: fixed;
     top: 0;
     left: 0;
@@ -68,7 +68,7 @@ body {
 }
 
 .header .logo img {
-    height: 100px;
+    height: 60px;
 }
 
 .header .navbar {
